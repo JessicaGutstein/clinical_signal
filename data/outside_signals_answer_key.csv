@@ -1,0 +1,29 @@
+hotspot_id,planted,expected_top_topic,expected_strength,note
+facility-F047,Yes,facility_closure,strong,A neighbouring hospital closed two units; the heat spell is a weak decoy
+wave-8-Queens,Yes,respiratory_virus,strong,"Early flu in Queens, from three items in two kinds of source"
+system-17-Northwell_Health,Yes,routing_change,strong,Ambulance routing to newly designated stroke centers; heat is a weak decoy
+wave-0-Bronx,Yes,air_quality,strong,Two air quality alerts; the pharmacy closures are a moderate decoy
+facilitywide-F071,Yes,enrollment_change,strong,"More members, not more illness: the known enrollment limitation"
+facilitywide-F095,Yes,labor_action,strong,A strike nearby diverted ambulances here
+facilitywide-F022,Yes,service_disruption,strong,Outpatient chemotherapy moved to inpatient floors
+pair-F001-10,Yes,care_access,strong,Dialysis clinics closed nearby; heat is a weak decoy
+facilitywide-F081,No,heat,weak,"Chance. Expected none; changed after the first run on the full app, where the regionwide heat spell fits weakly"
+pair-F011-19,Yes,infection_control,moderate,"The right area and diagnosis, but published four weeks before the rise"
+pair-F055-0,Yes,childhood_virus,strong,A children's virus at a children's hospital
+pair-F042-5,Yes,foodborne_outbreak,strong,A one-week spike after a street festival; the hospital closure is a weak decoy
+pair-F023-9,No,none,none,Chance
+pair-F095-13,Yes,labor_action,strong,Part of the same Hackensack diversion
+pair-F002-11,No,none,none,Chance. A closure last December is too long ago
+pair-F060-9,No,injury_trend,weak,Chance. A long-running trend story is never more than weak
+pair-F054-0,No,childhood_virus,weak,Chance. The virus notice is about children; this is not a children's hospital
+pair-F028-4,Yes,care_access,strong,The facility's own diabetes clinic closed
+pair-F044-12,No,facility_closure,weak,Chance. A closure elsewhere in Brooklyn that names a different facility
+pair-F001-15,No,none,none,Chance. The Legionnaires' cluster ended in July
+pair-F058-5,No,none,none,"Chance. The stomach illness cluster is in Brooklyn, not Queens"
+pair-F054-12,No,none,none,Chance. The crisis line outage was in July
+pair-F067-3,No,heat,weak,"Chance. Only the regionwide heat spell fits, weakly"
+pair-F031-9,No,none,none,Chance. The expressway crash came after the rise began
+pair-F012-8,No,none,none,Chance. Manhattan's flu bulletins report nothing unusual
+pair-F012-5,No,none,none,Chance. The school norovirus outbreak came after the rise began
+pair-F064-12,No,none,none,Chance. The crisis line outage was in July
+pair-F081-11,No,none,none,Chance. The maternity wing has not opened yet

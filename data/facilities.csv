@@ -1,0 +1,101 @@
+facility_id,facility_name,short_name,facility_type,health_system,network_status,borough,county,latitude,longitude
+F001,NewYork-Presbyterian/Weill Cornell Medical Center,NYP Weill Cornell,Acute care hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.76408,-73.954926
+F002,NewYork-Presbyterian/Columbia University Irving Medical Center,NYP Columbia,Acute care hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.84131,-73.94065
+F003,NewYork-Presbyterian Allen Hospital,NYP Allen,Acute care hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.872475,-73.912773
+F004,NewYork-Presbyterian Lower Manhattan Hospital,NYP Lower Manhattan,Acute care hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.710426,-74.005486
+F005,NewYork-Presbyterian Morgan Stanley Children's Hospital,Morgan Stanley Children's,Children's hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.8397,-73.9423
+F006,NewYork-Presbyterian Komansky Children's Hospital,Komansky Children's,Children's hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.765,-73.9538
+F007,NewYork-Presbyterian Alexandra Cohen Hospital for Women and Newborns,Alexandra Cohen Hospital,Specialty hospital,NewYork-Presbyterian,In-network,Manhattan,New York,40.764794,-73.955346
+F008,NYU Langone Tisch Hospital,NYU Langone Tisch,Acute care hospital,NYU Langone Health,In-network,Manhattan,New York,40.742874,-73.974159
+F009,NYU Langone Hassenfeld Children's Hospital,Hassenfeld Children's,Children's hospital,NYU Langone Health,In-network,Manhattan,New York,40.7419,-73.975
+F010,NYU Langone Orthopedic Hospital,NYU Langone Orthopedic,Specialty hospital,NYU Langone Health,In-network,Manhattan,New York,40.734127,-73.98307
+F011,The Mount Sinai Hospital,Mount Sinai,Acute care hospital,Mount Sinai Health System,In-network,Manhattan,New York,40.790482,-73.953766
+F012,Mount Sinai Kravis Children's Hospital,Kravis Children's,Children's hospital,Mount Sinai Health System,In-network,Manhattan,New York,40.7897,-73.9529
+F013,Mount Sinai Morningside,Mount Sinai Morningside,Acute care hospital,Mount Sinai Health System,In-network,Manhattan,New York,40.805912,-73.961639
+F014,Mount Sinai West,Mount Sinai West,Acute care hospital,Mount Sinai Health System,In-network,Manhattan,New York,40.770092,-73.987785
+F015,Mount Sinai Behavioral Health Center,Mount Sinai Behavioral Health,Inpatient psychiatric facility,Mount Sinai Health System,In-network,Manhattan,New York,40.72082,-73.99109
+F016,New York Eye and Ear Infirmary of Mount Sinai,NY Eye and Ear,Specialty hospital,Mount Sinai Health System,In-network,Manhattan,New York,40.732189,-73.984711
+F017,Lenox Hill Hospital,Lenox Hill,Acute care hospital,Northwell Health,In-network,Manhattan,New York,40.773907,-73.960632
+F018,NYC Health + Hospitals/Bellevue,Bellevue,Acute care hospital,NYC Health + Hospitals,In-network,Manhattan,New York,40.739605,-73.976509
+F019,NYC Health + Hospitals/Harlem,Harlem,Acute care hospital,NYC Health + Hospitals,In-network,Manhattan,New York,40.81435,-73.940506
+F020,NYC Health + Hospitals/Metropolitan,Metropolitan,Acute care hospital,NYC Health + Hospitals,In-network,Manhattan,New York,40.784775,-73.94368
+F021,NYC Health + Hospitals/Carter,Carter,Long-term acute care hospital,NYC Health + Hospitals,In-network,Manhattan,New York,40.802979,-73.940811
+F022,Memorial Sloan Kettering Cancer Center,Memorial Sloan Kettering,Specialty hospital,Independent,In-network,Manhattan,New York,40.764386,-73.956812
+F023,Hospital for Special Surgery,Special Surgery,Specialty hospital,Independent,In-network,Manhattan,New York,40.765381,-73.954185
+F024,Gracie Square Hospital,Gracie Square,Inpatient psychiatric facility,NewYork-Presbyterian,In-network,Manhattan,New York,40.7694,-73.952
+F025,New York State Psychiatric Institute,NYS Psychiatric Institute,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Manhattan,New York,40.842,-73.9445
+F026,Manhattan Psychiatric Center,Manhattan Psychiatric,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Manhattan,New York,40.7872,-73.929
+F027,Montefiore Medical Center - Moses Campus,Montefiore Moses,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Bronx,Bronx,40.8804,-73.88
+F028,Montefiore Medical Center - Weiler Hospital,Montefiore Weiler,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Bronx,Bronx,40.849575,-73.845055
+F029,Montefiore Medical Center - Wakefield Campus,Montefiore Wakefield,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Bronx,Bronx,40.894569,-73.86142
+F030,Children's Hospital at Montefiore,Children's at Montefiore,Children's hospital,Montefiore Health System,"In-network, value-based contract",Bronx,Bronx,40.8799,-73.8786
+F031,NYC Health + Hospitals/Jacobi,Jacobi,Acute care hospital,NYC Health + Hospitals,In-network,Bronx,Bronx,40.857388,-73.846741
+F032,NYC Health + Hospitals/Lincoln,Lincoln,Acute care hospital,NYC Health + Hospitals,In-network,Bronx,Bronx,40.817661,-73.92421
+F033,NYC Health + Hospitals/North Central Bronx,North Central Bronx,Acute care hospital,NYC Health + Hospitals,In-network,Bronx,Bronx,40.880512,-73.881538
+F034,BronxCare Hospital Center - Concourse Division,BronxCare Concourse,Acute care hospital,BronxCare Health System,In-network,Bronx,Bronx,40.843609,-73.911545
+F035,BronxCare Hospital Center - Fulton Division,BronxCare Fulton,Inpatient psychiatric facility,BronxCare Health System,In-network,Bronx,Bronx,40.831772,-73.903656
+F036,St. Barnabas Hospital,St. Barnabas,Acute care hospital,Independent,In-network,Bronx,Bronx,40.853909,-73.891014
+F037,Calvary Hospital,Calvary,Specialty hospital,Independent,In-network,Bronx,Bronx,40.847294,-73.844658
+F038,Bronx Psychiatric Center,Bronx Psychiatric,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Bronx,Bronx,40.849,-73.839
+F039,Maimonides Medical Center,Maimonides,Acute care hospital,Maimonides Health,In-network,Brooklyn,Kings,40.639423,-73.99839
+F040,Maimonides Midwood Community Hospital,Maimonides Midwood,Acute care hospital,Maimonides Health,In-network,Brooklyn,Kings,40.613419,-73.948967
+F041,NewYork-Presbyterian Brooklyn Methodist Hospital,NYP Brooklyn Methodist,Acute care hospital,NewYork-Presbyterian,In-network,Brooklyn,Kings,40.668087,-73.978905
+F042,NYU Langone Hospital - Brooklyn,NYU Langone Brooklyn,Acute care hospital,NYU Langone Health,In-network,Brooklyn,Kings,40.646591,-74.020439
+F043,The Brooklyn Hospital Center,Brooklyn Hospital Center,Acute care hospital,Independent,In-network,Brooklyn,Kings,40.689842,-73.977455
+F044,Brookdale University Hospital Medical Center,Brookdale,Acute care hospital,One Brooklyn Health,In-network,Brooklyn,Kings,40.655066,-73.912579
+F045,Interfaith Medical Center,Interfaith,Acute care hospital,One Brooklyn Health,In-network,Brooklyn,Kings,40.67794,-73.937515
+F046,University Hospital at Downstate,Downstate,Acute care hospital,Independent,In-network,Brooklyn,Kings,40.654518,-73.945045
+F047,NYC Health + Hospitals/Kings County,Kings County,Acute care hospital,NYC Health + Hospitals,In-network,Brooklyn,Kings,40.655823,-73.944099
+F048,NYC Health + Hospitals/Woodhull,Woodhull,Acute care hospital,NYC Health + Hospitals,In-network,Brooklyn,Kings,40.700535,-73.941711
+F049,NYC Health + Hospitals/South Brooklyn Health,South Brooklyn Health,Acute care hospital,NYC Health + Hospitals,In-network,Brooklyn,Kings,40.58662,-73.965797
+F050,Wyckoff Heights Medical Center,Wyckoff Heights,Acute care hospital,Independent,Out-of-network,Brooklyn,Kings,40.704517,-73.91774
+F051,Mount Sinai Brooklyn,Mount Sinai Brooklyn,Acute care hospital,Mount Sinai Health System,In-network,Brooklyn,Kings,40.617954,-73.94323
+F052,Kingsboro Psychiatric Center,Kingsboro Psychiatric,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Brooklyn,Kings,40.6565,-73.9365
+F053,NewYork-Presbyterian Queens,NYP Queens,Acute care hospital,NewYork-Presbyterian,In-network,Queens,Queens,40.747517,-73.826035
+F054,Long Island Jewish Medical Center,LIJ Medical Center,Acute care hospital,Northwell Health,In-network,Queens,Queens,40.75467,-73.70664
+F055,Cohen Children's Medical Center,Cohen Children's,Children's hospital,Northwell Health,In-network,Queens,Queens,40.7535,-73.7085
+F056,Zucker Hillside Hospital,Zucker Hillside,Inpatient psychiatric facility,Northwell Health,In-network,Queens,Queens,40.749,-73.712
+F057,Long Island Jewish Forest Hills,LIJ Forest Hills,Acute care hospital,Northwell Health,In-network,Queens,Queens,40.728745,-73.851036
+F058,Jamaica Hospital Medical Center,Jamaica Hospital,Acute care hospital,MediSys Health Network,"In-network, value-based contract",Queens,Queens,40.701412,-73.816299
+F059,Flushing Hospital Medical Center,Flushing Hospital,Acute care hospital,MediSys Health Network,"In-network, value-based contract",Queens,Queens,40.755531,-73.815475
+F060,NYC Health + Hospitals/Elmhurst,Elmhurst,Acute care hospital,NYC Health + Hospitals,In-network,Queens,Queens,40.74432,-73.885719
+F061,NYC Health + Hospitals/Queens,Queens Hospital,Acute care hospital,NYC Health + Hospitals,In-network,Queens,Queens,40.71722,-73.803581
+F062,Mount Sinai Queens,Mount Sinai Queens,Acute care hospital,Mount Sinai Health System,In-network,Queens,Queens,40.768269,-73.924461
+F063,St. John's Episcopal Hospital,St. John's Episcopal,Acute care hospital,Independent,In-network,Queens,Queens,40.598637,-73.752769
+F064,Creedmoor Psychiatric Center,Creedmoor Psychiatric,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Queens,Queens,40.74,-73.731
+F065,St. Mary's Hospital for Children,St. Mary's Children's,Children's hospital,Independent,Out-of-network,Queens,Queens,40.774,-73.771
+F066,Staten Island University Hospital - North,SIUH North,Acute care hospital,Northwell Health,In-network,Staten Island,Richmond,40.58453,-74.08561
+F067,Staten Island University Hospital - South,SIUH South,Acute care hospital,Northwell Health,In-network,Staten Island,Richmond,40.516773,-74.196808
+F068,Richmond University Medical Center,Richmond University,Acute care hospital,Independent,Out-of-network,Staten Island,Richmond,40.635807,-74.106674
+F069,South Beach Psychiatric Center,South Beach Psychiatric,Inpatient psychiatric facility,New York State Office of Mental Health,In-network,Staten Island,Richmond,40.581,-74.079
+F070,North Shore University Hospital,North Shore University,Acute care hospital,Northwell Health,In-network,Outside NYC,Nassau,40.77924,-73.702888
+F071,NYU Langone Hospital - Long Island,NYU Langone Long Island,Acute care hospital,NYU Langone Health,In-network,Outside NYC,Nassau,40.741699,-73.643082
+F072,Mount Sinai South Nassau,Mount Sinai South Nassau,Acute care hospital,Mount Sinai Health System,In-network,Outside NYC,Nassau,40.649601,-73.6315
+F073,St. Francis Hospital & Heart Center,St. Francis,Acute care hospital,Catholic Health,In-network,Outside NYC,Nassau,40.800301,-73.669098
+F074,Mercy Hospital,Mercy,Acute care hospital,Catholic Health,In-network,Outside NYC,Nassau,40.688408,-73.63324
+F075,Nassau University Medical Center,Nassau University,Acute care hospital,Independent,In-network,Outside NYC,Nassau,40.725353,-73.554321
+F076,Glen Cove Hospital,Glen Cove,Acute care hospital,Northwell Health,In-network,Outside NYC,Nassau,40.871731,-73.62159
+F077,Plainview Hospital,Plainview,Acute care hospital,Northwell Health,In-network,Outside NYC,Nassau,40.774471,-73.478264
+F078,Syosset Hospital,Syosset,Acute care hospital,Northwell Health,In-network,Outside NYC,Nassau,40.810238,-73.508614
+F079,Long Island Jewish Valley Stream,LIJ Valley Stream,Acute care hospital,Northwell Health,In-network,Outside NYC,Nassau,40.681789,-73.685814
+F080,St. Joseph Hospital,St. Joseph,Acute care hospital,Catholic Health,In-network,Outside NYC,Nassau,40.725853,-73.478714
+F081,Westchester Medical Center,Westchester Medical Center,Acute care hospital,WMCHealth,In-network,Outside NYC,Westchester,41.08773,-73.803993
+F082,Maria Fareri Children's Hospital,Maria Fareri Children's,Children's hospital,WMCHealth,In-network,Outside NYC,Westchester,41.0868,-73.8052
+F083,White Plains Hospital,White Plains,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Outside NYC,Westchester,41.026333,-73.769585
+F084,NewYork-Presbyterian Westchester,NYP Westchester,Acute care hospital,NewYork-Presbyterian,In-network,Outside NYC,Westchester,40.941673,-73.836334
+F085,Montefiore New Rochelle Hospital,Montefiore New Rochelle,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Outside NYC,Westchester,40.913021,-73.787086
+F086,Montefiore Mount Vernon Hospital,Montefiore Mount Vernon,Acute care hospital,Montefiore Health System,"In-network, value-based contract",Outside NYC,Westchester,40.912476,-73.840004
+F087,St. John's Riverside Hospital,St. John's Riverside,Acute care hospital,Independent,In-network,Outside NYC,Westchester,40.968262,-73.885033
+F088,St. Joseph's Medical Center,St. Joseph's Yonkers,Acute care hospital,Independent,Out-of-network,Outside NYC,Westchester,40.929512,-73.896957
+F089,Phelps Hospital,Phelps,Acute care hospital,Northwell Health,In-network,Outside NYC,Westchester,41.107639,-73.859665
+F090,Northern Westchester Hospital,Northern Westchester,Acute care hospital,Northwell Health,In-network,Outside NYC,Westchester,41.196774,-73.72451
+F091,NewYork-Presbyterian Hudson Valley Hospital,NYP Hudson Valley,Acute care hospital,NewYork-Presbyterian,In-network,Outside NYC,Westchester,41.291512,-73.893341
+F092,Burke Rehabilitation Hospital,Burke Rehabilitation,Inpatient rehabilitation facility,Montefiore Health System,"In-network, value-based contract",Outside NYC,Westchester,41.015186,-73.75573
+F093,Blythedale Children's Hospital,Blythedale Children's,Children's hospital,Independent,In-network,Outside NYC,Westchester,41.076408,-73.798767
+F094,NewYork-Presbyterian Westchester Behavioral Health,NYP Westchester Behavioral,Inpatient psychiatric facility,NewYork-Presbyterian,In-network,Outside NYC,Westchester,41.029835,-73.758293
+F095,Hackensack University Medical Center,Hackensack,Acute care hospital,Hackensack Meridian Health,In-network,Outside NYC,Bergen (NJ),40.884,-74.056
+F096,Englewood Hospital,Englewood,Acute care hospital,Independent,In-network,Outside NYC,Bergen (NJ),40.903,-73.967
+F097,Holy Name Medical Center,Holy Name,Acute care hospital,Independent,Out-of-network,Outside NYC,Bergen (NJ),40.883,-74.008
+F098,The Valley Hospital,Valley Hospital,Acute care hospital,Independent,In-network,Outside NYC,Bergen (NJ),40.958,-74.07
+F099,Jersey City Medical Center,Jersey City,Acute care hospital,RWJBarnabas Health,In-network,Outside NYC,Hudson (NJ),40.7165,-74.05
+F100,Palisades Medical Center,Palisades,Acute care hospital,Hackensack Meridian Health,In-network,Outside NYC,Hudson (NJ),40.793,-73.995

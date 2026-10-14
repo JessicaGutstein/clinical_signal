@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Outside items | Clinical Signal prototype</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#f4f5f2;color:#14212d;font:17px/1.6 "Atkinson Hyperlegible Next","Segoe UI",system-ui,-apple-system,sans-serif}
+a{color:#2c6a0f;text-underline-offset:3px}
+a:focus-visible,input:focus-visible{outline:3px solid #2c6a0f;outline-offset:2px}
+.demo{background:#14212d;color:#fff;font-size:14px;line-height:1.45;padding:10px 16px;text-align:center}
+.demo b{font-weight:700}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 56px}
+.back{display:inline-block;margin:18px 0 14px;font-size:15px}
+.sheet{background:#fff;border:1px solid #dde4e0;border-radius:10px;overflow:hidden}
+.mast{padding:18px 28px;border-bottom:1px solid #dde4e0}
+.mast .name{font-size:24px;font-weight:700;line-height:1.2}
+.mast .kind{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#47586a;margin-top:4px}
+.news .mast{text-align:center;border-bottom:3px double #14212d}
+.news .mast .name{font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:700}
+.notice .mast{background:#eef2f5;border-left:6px solid #47586a}
+.bulletin .mast{background:#eaf2f8;border-left:6px solid #3d6c8f}
+.body{padding:26px 28px 30px}
+h1{font-size:30px;line-height:1.22;margin:0 0 12px;text-wrap:balance}
+.news h1{font-family:Georgia,"Times New Roman",serif;font-size:34px}
+.by{font-size:14.5px;color:#47586a;margin:0 0 20px;padding-bottom:16px;border-bottom:1px solid #dde4e0}
+.body p{margin:0 0 16px}
+.news .body p{font-family:Georgia,"Times New Roman",serif;font-size:18.5px;line-height:1.65}
+.news .body p.by{font-family:inherit;font-size:14.5px;line-height:1.5}
+.facts{margin:24px 0 0;padding:0;border-top:1px solid #dde4e0}
+.facts div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid #dde4e0;font-size:15px}
+.facts dt{color:#47586a}
+.facts dd{margin:0}
+.tags{margin-top:20px;background:#fff;border:1px dashed #6b7986;border-radius:10px;padding:18px 28px 8px}
+.tags h2{font-size:16px;margin:0 0 6px}
+.tags p{font-size:14.5px;color:#47586a;margin:0 0 8px}
+.tags .facts{margin-top:10px}
+.tags .facts div:last-child{border-bottom:0}
+.lede{font-size:16px;color:#47586a;margin:0 0 18px}
+.search{width:100%;font:inherit;padding:10px 12px;border:1px solid #6b7986;border-radius:8px;margin:0 0 6px}
+.count{font-size:14px;color:#47586a;margin:0 0 18px}
+h2.sec{font-size:19px;margin:28px 0 8px}
+.list{list-style:none;margin:0;padding:0;background:#fff;border:1px solid #dde4e0;border-radius:10px}
+.list li{padding:11px 18px;border-bottom:1px solid #dde4e0}
+.list li:last-child{border-bottom:0}
+.list a{font-weight:700;font-size:16px;line-height:1.35}
+.list span{display:block;font-size:14px;color:#47586a}
+.list .flag{display:inline;font-size:12.5px;font-weight:700;color:#14212d;border:1px solid #6b7986;border-radius:999px;padding:1px 8px;margin-left:6px;white-space:nowrap}
+[hidden]{display:none!important}
+@media (max-width:520px){.mast,.body,.tags{padding-left:18px;padding-right:18px}h1,.news h1{font-size:26px}.facts div{grid-template-columns:1fr;gap:0}}
+</style>
+</head>
+<body class="">
+<div class="demo" role="note"><b>Made up for the Clinical Signal prototype.</b> This is not a real article. The source, the events and every figure are invented.</div>
+<div class="wrap">
+<h1 style="margin-top:28px">Outside items</h1>
+<p class="lede">196 invented notices, bulletins and news stories from outside the health plan. Clinical Signal reads these, and nothing else, when it looks for what may be driving a hotspot. In a real version each would be a link to the source's own website.</p>
+<label for="q" class="count" style="display:block;margin-bottom:6px">Search titles, sources and areas</label>
+<input class="search" id="q" type="search" autocomplete="off">
+<p class="count" id="n" aria-live="polite">Showing all 196 items, newest first in each group.</p>
+<section data-sec><h2 class="sec">Public health notice (75)</h2>
+<ul class="list">
+<li><a href="articles/S195.html">Weekly respiratory illness bulletin: Westchester County at Minimal</a><span>State health department &middot; October 2, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S194.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; October 2, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S193.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; October 2, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S192.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; October 2, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S191.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; October 2, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S190.html">Weekly respiratory illness bulletin: Brooklyn at Minimal</a><span>City health department &middot; October 2, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S189.html">Weekly respiratory illness bulletin: Bronx at Minimal</a><span>City health department &middot; October 2, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S188.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; October 2, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S181.html">Norovirus outbreak closes a Manhattan elementary school for two days</a> <span class=flag>Notable</span><span>City health department &middot; September 30, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S175.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; September 25, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S174.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; September 25, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S173.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; September 25, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S172.html">Weekly respiratory illness bulletin: Manhattan at Minimal</a><span>City health department &middot; September 25, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S171.html">Weekly respiratory illness bulletin: Hudson County, NJ at Minimal</a><span>State health department &middot; September 25, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S170.html">Weekly respiratory illness bulletin: Brooklyn at Low</a><span>City health department &middot; September 25, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S169.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; September 25, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S168.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; September 25, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S163.html">Stomach illness cluster linked to a street festival in Sunset Park</a> <span class=flag>Notable</span><span>City health department &middot; September 25, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S158.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; September 18, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S157.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; September 18, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S156.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; September 18, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S155.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; September 18, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S154.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; September 18, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S153.html">Weekly respiratory illness bulletin: Brooklyn at Low</a><span>City health department &middot; September 18, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S152.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; September 18, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S151.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; September 18, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S145.html">Queens respiratory illness level stays High for a third week</a> <span class=flag>Notable</span><span>City health department &middot; September 18, 2026 &middot; Queens</span></li>
+<li><a href="articles/S141.html">Weekly respiratory illness bulletin: Westchester County at Minimal</a><span>State health department &middot; September 11, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S140.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; September 11, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S139.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; September 11, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S138.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; September 11, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S137.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; September 11, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S136.html">Weekly respiratory illness bulletin: Brooklyn at Minimal</a><span>City health department &middot; September 11, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S135.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; September 11, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S134.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; September 11, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S128.html">Enterovirus D68 found in Queens schoolchildren; asthma flare-ups expected</a> <span class=flag>Notable</span><span>City health department &middot; September 9, 2026 &middot; Queens</span></li>
+<li><a href="articles/S121.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; September 4, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S120.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; September 4, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S119.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; September 4, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S118.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; September 4, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S117.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; September 4, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S116.html">Weekly respiratory illness bulletin: Brooklyn at Minimal</a><span>City health department &middot; September 4, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S115.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; September 4, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S114.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; September 4, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S108.html">Respiratory illness level in Queens moves to High, weeks earlier than usual</a> <span class=flag>Notable</span><span>City health department &middot; September 4, 2026 &middot; Queens</span></li>
+<li><a href="articles/S099.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; August 28, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S098.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; August 28, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S097.html">Weekly respiratory illness bulletin: Queens at Low</a><span>City health department &middot; August 28, 2026 &middot; Queens</span></li>
+<li><a href="articles/S096.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; August 28, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S095.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; August 28, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S094.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; August 28, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S093.html">Weekly respiratory illness bulletin: Brooklyn at Low</a><span>City health department &middot; August 28, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S092.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; August 28, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S091.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; August 28, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S082.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; August 21, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S081.html">Weekly respiratory illness bulletin: Staten Island at Low</a><span>City health department &middot; August 21, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S080.html">Weekly respiratory illness bulletin: Queens at Minimal</a><span>City health department &middot; August 21, 2026 &middot; Queens</span></li>
+<li><a href="articles/S079.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; August 21, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S078.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; August 21, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S077.html">Weekly respiratory illness bulletin: Hudson County, NJ at Minimal</a><span>State health department &middot; August 21, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S076.html">Weekly respiratory illness bulletin: Brooklyn at Low</a><span>City health department &middot; August 21, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S075.html">Weekly respiratory illness bulletin: Bronx at Minimal</a><span>City health department &middot; August 21, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S074.html">Weekly respiratory illness bulletin: Bergen County, NJ at Low</a><span>State health department &middot; August 21, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S072.html">Weekly respiratory illness bulletin: Westchester County at Low</a><span>State health department &middot; August 14, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S071.html">Weekly respiratory illness bulletin: Staten Island at Minimal</a><span>City health department &middot; August 14, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S070.html">Weekly respiratory illness bulletin: Queens at Low</a><span>City health department &middot; August 14, 2026 &middot; Queens</span></li>
+<li><a href="articles/S069.html">Weekly respiratory illness bulletin: Nassau County at Low</a><span>State health department &middot; August 14, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S068.html">Weekly respiratory illness bulletin: Manhattan at Low</a><span>City health department &middot; August 14, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S067.html">Weekly respiratory illness bulletin: Hudson County, NJ at Low</a><span>State health department &middot; August 14, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S066.html">Weekly respiratory illness bulletin: Brooklyn at Low</a><span>City health department &middot; August 14, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S065.html">Weekly respiratory illness bulletin: Bronx at Low</a><span>City health department &middot; August 14, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S064.html">Weekly respiratory illness bulletin: Bergen County, NJ at Minimal</a><span>State health department &middot; August 14, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S062.html">Inspection finds catheter-care lapses at three Manhattan nursing homes</a> <span class=flag>Notable</span><span>State health department &middot; August 10, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S048.html">Legionnaires&#x27; disease cluster in Upper Manhattan declared over</a> <span class=flag>Notable</span><span>City health department &middot; June 20, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S029.html">Sepsis cluster at a Bronx hospital traced to contaminated supplies</a> <span class=flag>Notable</span><span>City health department &middot; March 2, 2026 &middot; Bronx</span></li>
+</ul></section>
+<section data-sec><h2 class="sec">Weather and air quality (41)</h2>
+<ul class="list">
+<li><a href="articles/S196.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; October 2, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S187.html">Weekly air quality summary: Staten Island mostly good</a><span>Regional air quality bulletin &middot; October 2, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S186.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; October 2, 2026 &middot; Queens</span></li>
+<li><a href="articles/S185.html">Weekly air quality summary: Manhattan mostly good</a><span>Regional air quality bulletin &middot; October 2, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S184.html">Weekly air quality summary: Brooklyn mostly moderate</a><span>Regional air quality bulletin &middot; October 2, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S183.html">Weekly air quality summary: Bronx mostly moderate</a><span>Regional air quality bulletin &middot; October 2, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S176.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; September 25, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S167.html">Weekly air quality summary: Staten Island mostly moderate</a><span>Regional air quality bulletin &middot; September 25, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S166.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; September 25, 2026 &middot; Queens</span></li>
+<li><a href="articles/S165.html">Weekly air quality summary: Manhattan mostly moderate</a><span>Regional air quality bulletin &middot; September 25, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S164.html">Weekly air quality summary: Brooklyn mostly good</a><span>Regional air quality bulletin &middot; September 25, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S160.html">Second air quality alert in two weeks for the Bronx</a> <span class=flag>Notable</span><span>Regional air quality bulletin &middot; September 19, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S159.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; September 18, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S150.html">Weekly air quality summary: Staten Island mostly moderate</a><span>Regional air quality bulletin &middot; September 18, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S149.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; September 18, 2026 &middot; Queens</span></li>
+<li><a href="articles/S148.html">Weekly air quality summary: Manhattan mostly good</a><span>Regional air quality bulletin &middot; September 18, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S147.html">Weekly air quality summary: Brooklyn mostly good</a><span>Regional air quality bulletin &middot; September 18, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S146.html">Weekly air quality summary: Bronx mostly good</a><span>Regional air quality bulletin &middot; September 18, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S142.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; September 11, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S133.html">Weekly air quality summary: Staten Island mostly good</a><span>Regional air quality bulletin &middot; September 11, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S132.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; September 11, 2026 &middot; Queens</span></li>
+<li><a href="articles/S131.html">Weekly air quality summary: Manhattan mostly good</a><span>Regional air quality bulletin &middot; September 11, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S130.html">Weekly air quality summary: Brooklyn mostly moderate</a><span>Regional air quality bulletin &middot; September 11, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S126.html">Air quality in Queens stays moderate during Bronx alert</a><span>Regional air quality bulletin &middot; September 8, 2026 &middot; Queens</span></li>
+<li><a href="articles/S125.html">Air quality alert for the Bronx: fine particles unhealthy for sensitive groups</a> <span class=flag>Notable</span><span>Regional air quality bulletin &middot; September 8, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S113.html">Weekly air quality summary: Staten Island mostly good</a><span>Regional air quality bulletin &middot; September 4, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S112.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; September 4, 2026 &middot; Queens</span></li>
+<li><a href="articles/S111.html">Weekly air quality summary: Manhattan mostly good</a><span>Regional air quality bulletin &middot; September 4, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S110.html">Weekly air quality summary: Brooklyn mostly good</a><span>Regional air quality bulletin &middot; September 4, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S109.html">Weekly air quality summary: Bronx mostly good</a><span>Regional air quality bulletin &middot; September 4, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S106.html">Late-summer heat advisory for the whole region</a> <span class=flag>Notable</span><span>Regional weather service &middot; September 3, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S100.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; August 28, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S090.html">Weekly air quality summary: Staten Island mostly moderate</a><span>Regional air quality bulletin &middot; August 28, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S089.html">Weekly air quality summary: Queens mostly good</a><span>Regional air quality bulletin &middot; August 28, 2026 &middot; Queens</span></li>
+<li><a href="articles/S088.html">Weekly air quality summary: Manhattan mostly good</a><span>Regional air quality bulletin &middot; August 28, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S087.html">Weekly air quality summary: Brooklyn mostly good</a><span>Regional air quality bulletin &middot; August 28, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S086.html">Weekly air quality summary: Bronx mostly good</a><span>Regional air quality bulletin &middot; August 28, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S083.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; August 21, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S073.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; August 14, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S061.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; August 7, 2026 &middot; The whole region</span></li>
+<li><a href="articles/S059.html">Weekly weather outlook: seasonable temperatures</a><span>Regional weather service &middot; July 31, 2026 &middot; The whole region</span></li>
+</ul></section>
+<section data-sec><h2 class="sec">Local news (58)</h2>
+<ul class="list">
+<li><a href="articles/S182.html">Charity run in Hudson County, NJ raises money for local food bank</a><span>Tri-County Morning Wire &middot; October 2, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S180.html">Free health fair held in Brooklyn</a><span>The Borough Ledger-Post &middot; September 29, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S179.html">Weekend subway work planned in Bronx</a><span>The Borough Ledger-Post &middot; September 28, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S178.html">Multi-vehicle crash closes the expressway in the Bronx</a> <span class=flag>Notable</span><span>Harbor &amp; Hudson Journal &middot; September 28, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S161.html">Charity run in Bergen County, NJ raises money for local food bank</a><span>Tri-County Morning Wire &middot; September 20, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S143.html">Stomach bug sweeps a Staten Island summer league</a> <span class=flag>Notable</span><span>Tri-County Morning Wire &middot; September 12, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S129.html">Queens schools report early wave of flu absences</a> <span class=flag>Notable</span><span>The Borough Ledger-Post &middot; September 10, 2026 &middot; Queens</span></li>
+<li><a href="articles/S127.html">Nurses strike at a Bergen County hospital; ambulances diverted to Hackensack</a> <span class=flag>Notable</span><span>Harbor &amp; Hudson Journal &middot; September 8, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S124.html">Weekend subway work planned in Brooklyn</a><span>Five Borough Dispatch &middot; September 6, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S123.html">Free health fair held in Westchester County</a><span>The Borough Ledger-Post &middot; September 6, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S122.html">Brooklyn public hospital feels the strain after neighbour shuts units</a> <span class=flag>Notable</span><span>Five Borough Dispatch &middot; September 5, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S105.html">Nassau County moves its employees and retirees to a new health plan</a> <span class=flag>Notable</span><span>Tri-County Morning Wire &middot; September 1, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S101.html">Dialysis provider closes two Upper East Side clinics</a> <span class=flag>Notable</span><span>Five Borough Dispatch &middot; August 29, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S085.html">School board in Manhattan approves new term calendar</a><span>Harbor &amp; Hudson Journal &middot; August 24, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S063.html">Pharmacy chain closes four stores in the Bronx</a> <span class=flag>Notable</span><span>Harbor &amp; Hudson Journal &middot; August 14, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S058.html">New bike lanes proposed for Brooklyn</a><span>The Borough Ledger-Post &middot; July 28, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S057.html">Blood drive in Bronx meets its target</a><span>Harbor &amp; Hudson Journal &middot; July 25, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S056.html">Farmers market returns to Bronx</a><span>Harbor &amp; Hudson Journal &middot; July 21, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S055.html">Weekend subway work planned in Bergen County, NJ</a><span>Harbor &amp; Hudson Journal &middot; July 12, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S054.html">New bike lanes proposed for Brooklyn</a><span>Five Borough Dispatch &middot; July 12, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S053.html">Crisis line outage left Queens callers without help for two days</a> <span class=flag>Notable</span><span>The Borough Ledger-Post &middot; July 11, 2026 &middot; Queens</span></li>
+<li><a href="articles/S049.html">Water main repair closes a road in Hudson County, NJ</a><span>Tri-County Morning Wire &middot; June 23, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S047.html">Community board in Staten Island debates new housing</a><span>Harbor &amp; Hudson Journal &middot; June 12, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S046.html">Blood drive in Bergen County, NJ meets its target</a><span>Five Borough Dispatch &middot; June 12, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S045.html">E-bike injuries keep rising in Queens, doctors say</a> <span class=flag>Background</span><span>Five Borough Dispatch &middot; June 2, 2026 &middot; Queens</span></li>
+<li><a href="articles/S044.html">Brooklyn library branch reopens after renovation</a><span>The Borough Ledger-Post &middot; May 22, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S042.html">Farmers market returns to Hudson County, NJ</a><span>Five Borough Dispatch &middot; May 11, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S041.html">Manhattan street fair draws record crowd</a><span>The Borough Ledger-Post &middot; May 4, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S039.html">Community board in Manhattan debates new housing</a><span>Five Borough Dispatch &middot; April 16, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S038.html">Queens library branch reopens after renovation</a><span>The Borough Ledger-Post &middot; April 15, 2026 &middot; Queens</span></li>
+<li><a href="articles/S037.html">Free health fair held in Nassau County</a><span>Five Borough Dispatch &middot; April 12, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S036.html">Charity run in Queens raises money for local food bank</a><span>Harbor &amp; Hudson Journal &middot; April 11, 2026 &middot; Queens</span></li>
+<li><a href="articles/S034.html">Weekend subway work planned in Bergen County, NJ</a><span>Harbor &amp; Hudson Journal &middot; April 3, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S033.html">Water main repair closes a road in Queens</a><span>Tri-County Morning Wire &middot; March 23, 2026 &middot; Queens</span></li>
+<li><a href="articles/S032.html">Parking rules change in Queens</a><span>Tri-County Morning Wire &middot; March 19, 2026 &middot; Queens</span></li>
+<li><a href="articles/S031.html">Nassau County street fair draws record crowd</a><span>Five Borough Dispatch &middot; March 19, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S030.html">Water main repair closes a road in Staten Island</a><span>The Borough Ledger-Post &middot; March 15, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S028.html">Farmers market returns to Nassau County</a><span>Harbor &amp; Hudson Journal &middot; March 2, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S027.html">Free health fair held in Staten Island</a><span>The Borough Ledger-Post &middot; February 27, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S026.html">Community board in Bergen County, NJ debates new housing</a><span>Five Borough Dispatch &middot; February 26, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S025.html">School board in Bergen County, NJ approves new term calendar</a><span>Tri-County Morning Wire &middot; February 21, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S024.html">School board in Hudson County, NJ approves new term calendar</a><span>The Borough Ledger-Post &middot; February 18, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S023.html">Staten Island street fair draws record crowd</a><span>Five Borough Dispatch &middot; February 17, 2026 &middot; Staten Island</span></li>
+<li><a href="articles/S022.html">Nassau County street fair draws record crowd</a><span>Five Borough Dispatch &middot; February 15, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S021.html">School board in Bergen County, NJ approves new term calendar</a><span>Five Borough Dispatch &middot; February 11, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S019.html">Nassau County library branch reopens after renovation</a><span>The Borough Ledger-Post &middot; February 4, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S017.html">New bike lanes proposed for Nassau County</a><span>Tri-County Morning Wire &middot; January 26, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S016.html">Charity run in Queens raises money for local food bank</a><span>Five Borough Dispatch &middot; January 25, 2026 &middot; Queens</span></li>
+<li><a href="articles/S015.html">Parking rules change in Brooklyn</a><span>Tri-County Morning Wire &middot; January 22, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S013.html">Blood drive in Queens meets its target</a><span>Tri-County Morning Wire &middot; January 13, 2026 &middot; Queens</span></li>
+<li><a href="articles/S011.html">Brooklyn library branch reopens after renovation</a><span>Harbor &amp; Hudson Journal &middot; December 28, 2025 &middot; Brooklyn</span></li>
+<li><a href="articles/S010.html">Community board in Staten Island debates new housing</a><span>Five Borough Dispatch &middot; December 27, 2025 &middot; Staten Island</span></li>
+<li><a href="articles/S009.html">Blood drive in Manhattan meets its target</a><span>Tri-County Morning Wire &middot; December 16, 2025 &middot; Manhattan</span></li>
+<li><a href="articles/S006.html">Parking rules change in Brooklyn</a><span>Tri-County Morning Wire &middot; November 27, 2025 &middot; Brooklyn</span></li>
+<li><a href="articles/S005.html">Water main repair closes a road in Nassau County</a><span>Harbor &amp; Hudson Journal &middot; November 16, 2025 &middot; Nassau County</span></li>
+<li><a href="articles/S004.html">New bike lanes proposed for Bronx</a><span>Harbor &amp; Hudson Journal &middot; November 15, 2025 &middot; Bronx</span></li>
+<li><a href="articles/S002.html">Parking rules change in Brooklyn</a><span>Tri-County Morning Wire &middot; November 4, 2025 &middot; Brooklyn</span></li>
+<li><a href="articles/S001.html">Farmers market returns to Staten Island</a><span>Harbor &amp; Hudson Journal &middot; November 3, 2025 &middot; Staten Island</span></li>
+</ul></section>
+<section data-sec><h2 class="sec">Facility or network event (22)</h2>
+<ul class="list">
+<li><a href="articles/S177.html">Hospital in Nassau County opens new parking structure</a><span>The Borough Ledger-Post &middot; September 27, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S162.html">Hospital in Nassau County recognised for patient experience</a><span>Five Borough Dispatch &middot; September 25, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S144.html">Westchester County hospital to open new maternity wing in November</a> <span class=flag>Notable</span><span>Tri-County Morning Wire &middot; September 15, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S107.html">Outpatient infusion clinic on the Upper East Side closes after water damage</a> <span class=flag>Notable</span><span>State health department &middot; September 3, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S104.html">Hospital in southeast Brooklyn closes its maternity and inpatient cardiac units</a> <span class=flag>Notable</span><span>State health department &middot; September 1, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S103.html">Hospital in Hudson County, NJ switches to a new records system</a><span>The Borough Ledger-Post &middot; September 1, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S102.html">Ambulances to take suspected stroke patients to newly designated stroke centers from September 1</a> <span class=flag>Notable</span><span>Regional emergency medical services council &middot; September 1, 2026 &middot; Several areas (see the text)</span></li>
+<li><a href="articles/S084.html">Community diabetes clinic in Morris Park closes in consolidation</a> <span class=flag>Notable</span><span>The Borough Ledger-Post &middot; August 24, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S060.html">Hospital in Bronx opens new parking structure</a><span>Harbor &amp; Hudson Journal &middot; August 7, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S052.html">Hospital in Bronx names new chief executive</a><span>Harbor &amp; Hudson Journal &middot; July 6, 2026 &middot; Bronx</span></li>
+<li><a href="articles/S051.html">Hospital in Westchester County names new chief executive</a><span>Five Borough Dispatch &middot; July 2, 2026 &middot; Westchester County</span></li>
+<li><a href="articles/S050.html">Hospital in Bergen County, NJ switches to a new records system</a><span>The Borough Ledger-Post &middot; July 2, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S043.html">Hospital in Hudson County, NJ opens new parking structure</a><span>Five Borough Dispatch &middot; May 11, 2026 &middot; Hudson County, NJ</span></li>
+<li><a href="articles/S040.html">Hospital gala in Bergen County, NJ raises funds for new equipment</a><span>Harbor &amp; Hudson Journal &middot; May 4, 2026 &middot; Bergen County, NJ</span></li>
+<li><a href="articles/S035.html">Hospital in Brooklyn opens new parking structure</a><span>Five Borough Dispatch &middot; April 8, 2026 &middot; Brooklyn</span></li>
+<li><a href="articles/S020.html">Hospital gala in Manhattan raises funds for new equipment</a><span>Five Borough Dispatch &middot; February 6, 2026 &middot; Manhattan</span></li>
+<li><a href="articles/S018.html">Hospital in Queens recognised for patient experience</a><span>Harbor &amp; Hudson Journal &middot; January 31, 2026 &middot; Queens</span></li>
+<li><a href="articles/S014.html">Hospital in Nassau County recognised for patient experience</a><span>Harbor &amp; Hudson Journal &middot; January 16, 2026 &middot; Nassau County</span></li>
+<li><a href="articles/S012.html">Hospital in Westchester County names new chief executive</a><span>Harbor &amp; Hudson Journal &middot; December 30, 2025 &middot; Westchester County</span></li>
+<li><a href="articles/S008.html">Hospital gala in Westchester County raises funds for new equipment</a><span>The Borough Ledger-Post &middot; December 8, 2025 &middot; Westchester County</span></li>
+<li><a href="articles/S007.html">Hospital in Upper Manhattan closed its labor and delivery unit last December</a> <span class=flag>Notable</span><span>State health department &middot; December 1, 2025 &middot; Manhattan</span></li>
+<li><a href="articles/S003.html">Hospital in Brooklyn switches to a new records system</a><span>Five Borough Dispatch &middot; November 7, 2025 &middot; Brooklyn</span></li>
+</ul></section>
+<script>
+const q=document.getElementById('q'),n=document.getElementById('n'),items=[...document.querySelectorAll('.list li')];
+q.addEventListener('input',()=>{const t=q.value.trim().toLowerCase();let c=0;
+items.forEach(li=>{const on=!t||li.textContent.toLowerCase().includes(t);li.hidden=!on;if(on)c++;});
+document.querySelectorAll('[data-sec]').forEach(s=>{s.hidden=!s.querySelector('li:not([hidden])');});
+n.textContent=t?`Showing ${c} of ${items.length} items.`:`Showing all ${items.length} items, newest first in each group.`;});
+</script>
+</div>
+</body>
+</html>

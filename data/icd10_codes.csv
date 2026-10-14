@@ -1,0 +1,120 @@
+code,diagnosis_group,name,meaning,weight,weight_children
+I50.9,Heart failure,"Heart failure, unspecified",The heart is not pumping well enough to meet the body's needs; the type was not recorded.,30,10
+I50.23,Heart failure,Sudden worsening of systolic heart failure,Long-standing weakness of the heart's pumping action that has suddenly become worse.,22,4
+I50.33,Heart failure,Sudden worsening of diastolic heart failure,"Long-standing stiffness that stops the heart filling properly, which has suddenly become worse.",20,2
+I50.43,Heart failure,Sudden worsening of combined heart failure,"Both the pumping and the filling of the heart are impaired, and it has suddenly become worse.",8,1
+I11.0,Heart failure,Heart failure from high blood pressure,Heart failure caused by long-term high blood pressure.,12,1
+I13.0,Heart failure,Heart failure with high blood pressure and kidney disease,Heart failure in someone who also has high blood pressure and chronic kidney disease.,8,0
+J44.1,COPD and asthma,COPD flare-up,"A sudden worsening of chronic obstructive pulmonary disease, with more breathlessness and cough.",42,0
+J44.0,COPD and asthma,COPD with a chest infection,Chronic obstructive pulmonary disease together with an infection in the lower airways.,16,0
+J45.901,COPD and asthma,"Asthma attack, severity not specified",A sudden worsening of asthma; how severe the underlying asthma is was not recorded.,22,50
+J45.41,COPD and asthma,"Moderate persistent asthma, attack","A sudden worsening in someone with moderate, ongoing asthma.",10,26
+J45.51,COPD and asthma,"Severe persistent asthma, attack","A sudden worsening in someone with severe, ongoing asthma.",10,24
+J18.9,Pneumonia,"Pneumonia, cause not identified",A lung infection where the germ responsible was not identified.,48,50
+J15.9,Pneumonia,"Bacterial pneumonia, unspecified","A lung infection caused by bacteria, without the specific bacterium named.",14,14
+J18.1,Pneumonia,Lobar pneumonia,A lung infection that fills one section (lobe) of a lung.,10,12
+J13,Pneumonia,Pneumococcal pneumonia,A lung infection caused by the pneumococcus bacterium.,8,14
+J69.0,Pneumonia,Aspiration pneumonia,"A lung infection caused by breathing in food, drink, or vomit.",14,6
+J15.212,Pneumonia,MRSA pneumonia,A lung infection caused by a staph bacterium that resists common antibiotics.,6,4
+U07.1,"Influenza, COVID-19 and viral respiratory infection",COVID-19,"Illness caused by the COVID-19 virus, confirmed by a test.",40,14
+J10.1,"Influenza, COVID-19 and viral respiratory infection",Flu with respiratory symptoms,"Confirmed influenza with symptoms such as cough, sore throat, or breathing trouble, but no pneumonia.",18,14
+J10.00,"Influenza, COVID-19 and viral respiratory infection",Flu with pneumonia,Confirmed influenza that has led to a lung infection.,10,6
+J12.9,"Influenza, COVID-19 and viral respiratory infection","Viral pneumonia, unspecified",A lung infection caused by a virus that was not identified.,14,10
+J06.9,"Influenza, COVID-19 and viral respiratory infection",Upper respiratory infection,"An infection of the nose, throat, or upper airways, such as a bad cold.",10,12
+J21.0,"Influenza, COVID-19 and viral respiratory infection",RSV bronchiolitis,"Inflammation of the small airways caused by RSV, mostly seen in infants and young children.",0,44
+E11.65,Diabetes complications,Type 2 diabetes with high blood sugar,Type 2 diabetes with blood sugar that is too high and not under control.,36,6
+E11.10,Diabetes complications,Type 2 diabetes with ketoacidosis,A dangerous build-up of acids in the blood in someone with type 2 diabetes.,14,6
+E10.10,Diabetes complications,Type 1 diabetes with ketoacidosis,A dangerous build-up of acids in the blood in someone with type 1 diabetes.,16,76
+E11.621,Diabetes complications,Type 2 diabetes with a foot ulcer,An open sore on the foot caused by type 2 diabetes.,14,0
+E11.649,Diabetes complications,Type 2 diabetes with low blood sugar,Blood sugar that has dropped too low in someone with type 2 diabetes.,12,8
+E11.00,Diabetes complications,Type 2 diabetes with hyperosmolar state,Extremely high blood sugar with severe dehydration in someone with type 2 diabetes.,8,4
+I16.0,Hypertension,Hypertensive urgency,Very high blood pressure without signs of organ damage.,38,30
+I16.1,Hypertension,Hypertensive emergency,"Very high blood pressure that is damaging organs such as the heart, brain, or kidneys.",28,30
+I10,Hypertension,High blood pressure,Ordinary long-term high blood pressure.,24,30
+I16.9,Hypertension,"Hypertensive crisis, unspecified","Dangerously high blood pressure, recorded without saying whether organs were affected.",10,10
+N39.0,Urinary tract infection,Urinary tract infection,An infection somewhere in the urinary system; the exact site was not recorded.,62,50
+N10,Urinary tract infection,Kidney infection,A sudden infection of the kidney.,20,30
+N30.00,Urinary tract infection,Bladder infection,"A sudden infection of the bladder, without blood in the urine.",10,12
+N30.01,Urinary tract infection,Bladder infection with blood in urine,A sudden infection of the bladder that is causing blood in the urine.,8,8
+A41.9,Sepsis,"Sepsis, germ not identified","A life-threatening reaction to an infection, where the germ responsible was not identified.",56,60
+A41.51,Sepsis,Sepsis from E. coli,A life-threatening reaction to an infection with the E. coli bacterium.,16,12
+A41.01,Sepsis,Sepsis from staph (MSSA),A life-threatening reaction to an infection with a staph bacterium that responds to common antibiotics.,9,10
+A41.02,Sepsis,Sepsis from MRSA,A life-threatening reaction to an infection with a staph bacterium that resists common antibiotics.,7,6
+A41.89,Sepsis,Sepsis from another named germ,A life-threatening reaction to an infection with a specific germ not listed separately.,12,12
+I21.4,Coronary artery disease and heart attack,Heart attack (NSTEMI),A heart attack in which the artery is partly blocked.,34,10
+I21.3,Coronary artery disease and heart attack,"Heart attack (STEMI), site unspecified",A heart attack in which an artery is fully blocked; the part of the heart was not recorded.,10,5
+I21.09,Coronary artery disease and heart attack,"Heart attack (STEMI), front wall",A heart attack in which an artery supplying the front of the heart is fully blocked.,8,5
+I25.10,Coronary artery disease and heart attack,Coronary artery disease,"Narrowed heart arteries, without chest pain at the time.",24,40
+I25.110,Coronary artery disease and heart attack,Coronary artery disease with unstable angina,"Narrowed heart arteries causing chest pain that is new, worsening, or happening at rest.",14,20
+I20.0,Coronary artery disease and heart attack,Unstable angina,"Chest pain from the heart that is new, worsening, or happening at rest.",10,20
+I48.91,Cardiac arrhythmia,"Atrial fibrillation, unspecified","An irregular, often fast heartbeat starting in the upper chambers of the heart.",40,10
+I48.0,Cardiac arrhythmia,Atrial fibrillation that comes and goes,An irregular heartbeat that starts and stops on its own.,20,10
+I48.92,Cardiac arrhythmia,Atrial flutter,A fast but regular heartbeat starting in the upper chambers of the heart.,10,10
+I49.5,Cardiac arrhythmia,Sick sinus syndrome,"The heart's natural pacemaker is not working properly, so the heartbeat is too slow or uneven.",10,10
+I44.2,Cardiac arrhythmia,Complete heart block,Electrical signals are not passing from the upper to the lower chambers of the heart.,8,20
+I47.20,Cardiac arrhythmia,Ventricular tachycardia,A dangerously fast heartbeat starting in the lower chambers of the heart.,12,40
+I63.9,Stroke,"Stroke from a blocked artery, unspecified",A stroke caused by a blocked blood vessel in the brain; the detail was not recorded.,46,40
+I63.50,Stroke,Stroke from a narrowed brain artery,A stroke caused by a narrowed or blocked artery in the brain.,14,10
+I63.40,Stroke,Stroke from a travelling clot,A stroke caused by a clot that formed elsewhere and lodged in a brain artery.,12,10
+I61.9,Stroke,Bleeding in the brain,A stroke caused by bleeding inside the brain that was not due to an injury.,14,30
+G45.9,Stroke,Mini-stroke (TIA),A brief interruption of blood flow to the brain that causes temporary stroke symptoms.,14,10
+K92.2,Gastrointestinal,Bleeding in the digestive tract,Bleeding somewhere in the gut; the source was not recorded.,22,8
+K57.32,Gastrointestinal,Diverticulitis,Inflamed pouches in the wall of the large bowel.,14,0
+K56.609,Gastrointestinal,Bowel obstruction,A blockage that stops food or stool moving through the bowel.,14,10
+K85.90,Gastrointestinal,Acute pancreatitis,Sudden inflammation of the pancreas.,14,6
+K80.00,Gastrointestinal,Gallstones with inflamed gallbladder,Gallstones causing sudden inflammation of the gallbladder.,12,4
+A09,Gastrointestinal,Infectious gastroenteritis,Vomiting and diarrhea caused by an infection of the gut.,12,46
+K52.9,Gastrointestinal,"Gastroenteritis, not infectious",Inflammation of the stomach and bowel that is not caused by an infection.,12,26
+N17.9,Kidney disease and fluid disorders,Acute kidney failure,The kidneys have suddenly stopped working properly.,44,20
+E86.0,Kidney disease and fluid disorders,Dehydration,The body has lost too much fluid.,18,50
+E87.1,Kidney disease and fluid disorders,Low sodium,The level of sodium in the blood is too low.,14,10
+N18.6,Kidney disease and fluid disorders,End-stage kidney disease,"The kidneys have permanently failed, and dialysis or a transplant is needed.",14,6
+E87.5,Kidney disease and fluid disorders,High potassium,The level of potassium in the blood is too high.,10,14
+F33.2,Mental health,Severe recurrent depression,"A repeat episode of severe depression, without psychosis.",22,24
+F32.9,Mental health,"Depression, single episode",A first episode of depression; the severity was not recorded.,12,24
+F20.9,Mental health,Schizophrenia,"A long-term condition that affects thinking, perception, and behaviour.",20,2
+F25.9,Mental health,Schizoaffective disorder,A condition with features of both schizophrenia and a mood disorder.,12,2
+F31.9,Mental health,Bipolar disorder,A condition with episodes of very high and very low mood.,16,14
+F29,Mental health,"Psychosis, cause not specified","Loss of contact with reality, where the cause has not been established.",10,10
+F43.10,Mental health,Post-traumatic stress disorder,Lasting distress after a traumatic event.,8,24
+F10.239,Substance use,Alcohol dependence with withdrawal,Withdrawal symptoms in someone dependent on alcohol.,30,10
+F10.231,Substance use,Alcohol withdrawal delirium,"Severe alcohol withdrawal with confusion, sometimes called delirium tremens.",12,2
+F10.129,Substance use,Alcohol intoxication,Harmful drinking with intoxication at the time of admission.,12,40
+F11.23,Substance use,Opioid dependence with withdrawal,Withdrawal symptoms in someone dependent on opioids.,22,10
+F11.20,Substance use,Opioid dependence,"Dependence on opioids, without other complications recorded.",14,18
+F14.20,Substance use,Cocaine dependence,"Dependence on cocaine, without other complications recorded.",10,20
+O80,Maternity and newborn,Uncomplicated vaginal delivery,A full-term delivery with no complications.,44,44
+O82,Maternity and newborn,Cesarean delivery,A cesarean delivery with no other reason recorded.,12,12
+O34.211,Maternity and newborn,Care for a previous cesarean scar,Pregnancy care or delivery in someone who has had a cesarean before.,16,16
+O70.1,Maternity and newborn,Tear during delivery,A second-degree tear of the perineum during delivery.,10,10
+O48.0,Maternity and newborn,Post-term pregnancy,A pregnancy that has gone beyond 40 weeks.,8,8
+O24.420,Maternity and newborn,Gestational diabetes at delivery,"Diabetes that developed during pregnancy, managed by diet, at the time of delivery.",10,10
+M17.11,Orthopedic and joint,Arthritis of the right knee,"Wear-and-tear arthritis of the right knee, usually admitted for joint replacement.",24,10
+M17.12,Orthopedic and joint,Arthritis of the left knee,"Wear-and-tear arthritis of the left knee, usually admitted for joint replacement.",22,10
+M16.11,Orthopedic and joint,Arthritis of the right hip,"Wear-and-tear arthritis of the right hip, usually admitted for joint replacement.",17,10
+M16.12,Orthopedic and joint,Arthritis of the left hip,"Wear-and-tear arthritis of the left hip, usually admitted for joint replacement.",15,10
+M48.062,Orthopedic and joint,Narrowing of the lower spine,Narrowing of the spinal canal in the lower back that causes leg pain when walking.,12,20
+M51.16,Orthopedic and joint,Slipped disc with nerve pain,A damaged disc in the lower back pressing on a nerve.,10,40
+Z51.11,Cancer,Admission for chemotherapy,A planned stay to receive chemotherapy.,22,30
+C34.90,Cancer,Lung cancer,Cancer of the lung or airways; the exact site was not recorded.,20,0
+C50.919,Cancer,Breast cancer,Cancer of the breast; the exact site was not recorded.,12,0
+C18.9,Cancer,Colon cancer,Cancer of the colon; the exact site was not recorded.,12,0
+C61,Cancer,Prostate cancer,Cancer of the prostate.,8,0
+C25.9,Cancer,Pancreatic cancer,Cancer of the pancreas; the exact site was not recorded.,8,0
+C79.51,Cancer,Cancer spread to bone,Cancer that started elsewhere and has spread to the bones.,14,6
+C91.00,Cancer,Acute lymphoblastic leukemia,"A fast-growing cancer of the white blood cells, not in remission.",4,64
+S72.001A,Injury and trauma,Broken right hip,A break at the top of the right thigh bone.,22,6
+S72.002A,Injury and trauma,Broken left hip,A break at the top of the left thigh bone.,22,6
+S06.0X0A,Injury and trauma,Concussion,A mild brain injury without loss of consciousness.,12,30
+S22.42XA,Injury and trauma,"Multiple broken ribs, left side",Several broken ribs on the left side of the chest.,12,6
+S32.010A,Injury and trauma,Compression fracture of the lower spine,A crushed bone in the lower back (first lumbar vertebra).,12,6
+S82.201A,Injury and trauma,Broken right shin bone,A break in the shaft of the right shin bone.,10,24
+S42.201A,Injury and trauma,Broken right upper arm,A break at the top of the right upper arm bone.,10,22
+L03.115,Other medical and surgical,"Skin infection, right leg",A bacterial infection of the skin and tissue of the right leg (cellulitis).,14,10
+L03.116,Other medical and surgical,"Skin infection, left leg",A bacterial infection of the skin and tissue of the left leg (cellulitis).,14,10
+K35.80,Other medical and surgical,Acute appendicitis,Sudden inflammation of the appendix.,12,36
+R55,Other medical and surgical,Fainting,A brief loss of consciousness.,14,12
+D64.9,Other medical and surgical,Anemia,Too few healthy red blood cells; the type was not recorded.,12,10
+I26.99,Other medical and surgical,Blood clot in the lung,"A clot blocking an artery in the lung, without strain on the heart.",12,2
+R07.9,Other medical and surgical,"Chest pain, cause unknown",Chest pain where the cause has not been established.,12,10
+K40.90,Other medical and surgical,Groin hernia,"A hernia in the groin on one side, without blockage.",10,10

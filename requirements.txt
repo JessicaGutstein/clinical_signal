@@ -1,0 +1,11 @@
+# Needed to run the prototype
+flask>=3.0
+pandas>=2.0
+numpy>=1.24
+
+# Only used when ANTHROPIC_API_KEY is set, so Claude writes the alert summaries.
+# Safe to remove if you do not plan to use it.
+anthropic>=0.40
+
+# Web server used when the prototype is hosted online (Render)
+gunicorn>=22.0

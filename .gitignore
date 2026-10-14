@@ -1,0 +1,19 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Mac files
+.DS_Store
+
+# Presentation and write-ups (shared through Google Drive instead)
+*.pptx
+*.pdf
+*.docx
+~$*
+
+# Practice clicks from demo rehearsals, so the app opens clean
+data/cause_reviews.json
+data/action_decisions.json
