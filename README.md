@@ -4,7 +4,7 @@ Finds where a health plan's member admissions are unusually high and shows them
 on a bubble map of the New York region. Part one, detecting the hotspot, and part two, what may be
 driving it, are built. Part three, who can act, comes later.
 
-This is a prototype built on synthetic data. It is not an official Humana product.
+This is a prototype built on synthetic data. It is not an official product.
 
 - The full write-up is in **Clinical Signal - Hotspot Detection Guide.docx**.
 - What was tested, and how it came out, is in **Clinical Signal - Evaluation Log.docx**.

@@ -103,7 +103,7 @@ async def main(out_path: str | None) -> int:
         titles = await page.evaluate("[...document.querySelectorAll('.p-title h2')].map(h => h.textContent.trim())")
         record("L1", "Each panel has its title: Top hotspots, Map, Summary", titles == ["Top hotspots", "Map", "Summary"], ", ".join(titles))
         brand = await page.inner_text(".brand")
-        record("L2", "The app is named Humana Clinical Signal, marked Prototype", "Humana Clinical Signal" in brand and "Prototype" in brand)
+        record("L2", "The app is named Clinical Signal, marked Prototype", "Clinical Signal" in brand and "Prototype" in brand)
         record("L3", "Line of business is gone from the screen", "Line of business" not in body and await page.locator("select").count() == 0)
         top_bar = await page.inner_text("#asof")
         record("C2", "The top bar total equals the admissions reported in the window", f"{len(in_window):,}" in top_bar, top_bar)
@@ -391,7 +391,7 @@ async def main(out_path: str | None) -> int:
         # ---- Look ----
         stripe = await page.evaluate("getComputedStyle(document.querySelector('.topbar')).borderBottomColor")
         tab_bar = await page.evaluate("getComputedStyle(document.querySelector('[role=tab][aria-selected=true]')).borderBottomColor")
-        record("B1", "Humana green is the accent: the stripe under the top bar and the selected tab", stripe == "rgb(120, 190, 32)" == tab_bar, f"{stripe} / {tab_bar}")
+        record("B1", "Green is the accent: the stripe under the top bar and the selected tab", stripe == "rgb(120, 190, 32)" == tab_bar, f"{stripe} / {tab_bar}")
         reds = await page.evaluate("""() => { const out = new Set(); document.querySelectorAll('#queue *:not(.sr), #detail *:not(.sr), .topbar *:not(svg *)').forEach(e => {
             const s = getComputedStyle(e); for (const c of [s.color, s.backgroundColor]) if (c === 'rgb(199, 46, 43)') out.add(e.className.toString().split(' ').slice(0, 2).join('.')); }); return [...out]; }""")
         allowed = {"badge.rank", "fig-num.red", "card-num", "mbar", "over.end", "over", "recent-label", "pt"}
