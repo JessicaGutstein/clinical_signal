@@ -8,20 +8,44 @@ This is a prototype built on synthetic data. It is not an official product.
 
 ## Start it
 
-On a Mac, double-click `start.command`. The first run takes about a minute to
-set up. Your browser opens at http://127.0.0.1:5050.
+You need Python 3.10 or newer and Git. Check Python with `python3 --version`.
+If this repository is private, ask the owner to add you as a collaborator first,
+or the clone will fail.
 
-Or from Terminal:
+**Mac or Linux** (Terminal):
 
 ```bash
-cd ~/Desktop/"Clinical Analytics"
+git clone https://github.com/JessicaGutstein/clinical_signal.git
+cd clinical_signal
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python run.py
 ```
 
-Press Ctrl+C in the Terminal window to stop it.
+**Windows** (PowerShell):
+
+```powershell
+git clone https://github.com/JessicaGutstein/clinical_signal.git
+cd clinical_signal
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python run.py
+```
+
+Your browser opens at http://127.0.0.1:5050. The first start takes a few seconds
+while it loads the data and runs detection. Press Ctrl+C in the terminal to stop it.
+
+On a Mac you can also double-click `start.command` once the folder is set up.
+
+**Next time:** open a terminal in the `clinical_signal` folder, run
+`git pull` to get updates, activate the environment
+(`source .venv/bin/activate`, or `.venv\Scripts\Activate.ps1` on Windows),
+then run `python run.py`.
+
+**If the page does not open:** another program may be using port 5050. Stop it, or
+change the port in `config.py`, then start again.
 
 ## What is in this folder
 
