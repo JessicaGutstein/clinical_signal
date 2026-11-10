@@ -1,5 +1,7 @@
 # Clinical Signal: hotspot detection prototype
 
+![Clinical Signal dashboard: top hotspots on the left, a bubble map of the New York region in the middle, and a summary panel on the right](docs/screenshot.png)
+
 Finds where a health plan's member admissions are unusually high and shows them
 on a bubble map of the New York region. Part one, detecting the hotspot, and part two, what may be
 driving it, are built. Part three, who can act, comes later.
