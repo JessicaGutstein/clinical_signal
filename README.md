@@ -6,11 +6,6 @@ driving it, are built. Part three, who can act, comes later.
 
 This is a prototype built on synthetic data. It is not an official product.
 
-- The full write-up is in **Clinical Signal - Hotspot Detection Guide.docx**.
-- What was tested, and how it came out, is in **Clinical Signal - Evaluation Log.docx**.
-- Every design question and answer is in **Clinical Signal - Decision Log.docx**.
-- Where the data would come from is in **Clinical Signal - Where the Data Comes From.docx**.
-
 ## Start it
 
 On a Mac, double-click `start.command`. The first run takes about a minute to
@@ -89,7 +84,7 @@ python scripts/run_evaluation.py          # the 30 evaluation cases, one line ea
 
 `tests/dashboard_checks.py` compares what the screen shows with what detection
 found. It needs the `playwright` package and the app running, so it is run during
-testing and its results are kept in the evaluation log.
+testing.
 
 ## Change the rules
 

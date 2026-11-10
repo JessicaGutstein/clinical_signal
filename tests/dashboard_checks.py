@@ -5,8 +5,7 @@
 The app must already be running at http://127.0.0.1:5050. This drives a real
 browser through every hotspot and several facilities and compares what is on the
 screen with what detection computed. It needs the `playwright` package and a
-Chromium browser, which the app itself does not need, so it is run during testing
-and its results are recorded in the evaluation log.
+Chromium browser, which the app itself does not need, so it is run during testing.
 
 Set AXE_JS to the path of axe.min.js to include the accessibility scan.
 """

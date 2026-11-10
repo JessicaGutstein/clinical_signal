@@ -161,7 +161,7 @@ def main() -> int:
     print(f"\n{s['passed']} of {s['cases']} cases behave as expected.")
     print(f"{s['alerts']} alerts today; {s['unplanted']} have no planted pattern behind them "
           f"({s['unplanted_top']} of the {s['top']} top hotspots).")
-    if len(sys.argv) > 1:  # also save the results, for the evaluation log
+    if len(sys.argv) > 1:  # also save the results to the given file
         import json
         Path(sys.argv[1]).write_text(json.dumps({"results": results, "summary": s}, indent=1))
     return 0
